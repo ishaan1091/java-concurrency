@@ -1,4 +1,4 @@
-package com.concurrency.rendezvous;
+package com.concurrency.basic.patterns.rendezvous;
 
 import java.util.concurrent.*;
 import java.util.List;

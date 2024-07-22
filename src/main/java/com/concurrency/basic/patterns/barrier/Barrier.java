@@ -1,4 +1,4 @@
-package com.concurrency.barrier;
+package com.concurrency.basic.patterns.barrier;
 
 import java.util.concurrent.*;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.concurrency.queue;
+package com.concurrency.basic.patterns.queue;
 
 import java.util.ArrayList;
 import java.util.List;

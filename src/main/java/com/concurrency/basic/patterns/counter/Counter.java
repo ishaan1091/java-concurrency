@@ -1,4 +1,4 @@
-package com.concurrency.counter;
+package com.concurrency.basic.patterns.counter;
 
 import java.util.concurrent.*;
 
