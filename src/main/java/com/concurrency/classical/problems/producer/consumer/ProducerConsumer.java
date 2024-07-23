@@ -12,7 +12,7 @@ public class ProducerConsumer {
     private static final Semaphore events = new Semaphore(0);
     private static final Queue<String> buffer = new LinkedList<>();
 
-    public static class ProducerRunner implements Runnable {
+    private static class ProducerRunner implements Runnable {
 
         private final int id;
 
@@ -36,7 +36,7 @@ public class ProducerConsumer {
         }
     }
 
-    public static class ConsumerRunner implements Runnable {
+    private static class ConsumerRunner implements Runnable {
 
         private final int id;
 

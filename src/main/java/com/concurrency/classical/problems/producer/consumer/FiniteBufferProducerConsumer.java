@@ -13,7 +13,7 @@ public class FiniteBufferProducerConsumer {
     private static final Semaphore capacity = new Semaphore(bufferSize);
     private static final Queue<String> buffer = new LinkedList<>();
 
-    public static class ProducerRunner implements Runnable {
+    private static class ProducerRunner implements Runnable {
 
         private final int id;
 
@@ -39,7 +39,7 @@ public class FiniteBufferProducerConsumer {
         }
     }
 
-    public static class ConsumerRunner implements Runnable {
+    private static class ConsumerRunner implements Runnable {
 
         private final int id;
 
